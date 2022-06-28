@@ -1,0 +1,7 @@
+.cover__title {
+  text-align: center;
+  width: 90.75%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+}

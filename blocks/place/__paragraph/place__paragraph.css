@@ -1,0 +1,10 @@
+.place__paragraph {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.place__paragraph:first-of-type {
+  margin-bottom: 26px;
+}
