@@ -1,20 +1,3 @@
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  src: url("Inter-Regular.woff2") format("woff2"),
-       url("Inter-Regular.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 900;
-  src: url("Inter-Black.woff2") format("woff2"),
-       url("Inter-Black.woff") format("woff");
-}
-
-
 .page {
   background-color: #2a2c2f;
   font-family: Inter;
@@ -161,7 +144,7 @@
 }
 
 .photo-grid__item {
-  width: 284px;
+  width: 100%;
   max-width: 100%;
 }
 
@@ -203,9 +186,8 @@
 .place__image {
   margin-top: 48px;
   margin-right: 0;
-  max-width: 460px;
   align-self: flex-start;
-  width: 49.5%;
+  width: 47%;
 }
 
 .place__text {
@@ -379,7 +361,6 @@
   }
 
   .photo-grid__item {
-    width: 300px;
     max-width: 100%;
   }
 
@@ -453,7 +434,6 @@
   }
 
   .photo-grid {
-    width: 93.75%;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
     gap: 16px;
@@ -461,7 +441,6 @@
   }
 
   .photo-grid__item {
-    width: 352px;
     max-width: 100%;
   }
 
@@ -483,7 +462,6 @@
   .place__image {
     margin-top: 48px;
     margin-right: 0;
-    max-width: 340px;
   }
 
   .place__paragraph {
@@ -499,7 +477,7 @@
   }
 
   .cover__container {
-    padding: 115px 104px;
+    padding: 14.97% 13.54%;
   }
 
   .footer {
@@ -576,14 +554,13 @@
 
   .photo-grid {
     margin-top: 64px;
-    width: 90%;
     grid-template-columns: minmax(288px, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    gap: 12px;
+    gap: 10.5px;
+    align-items: center;
   }
 
   .photo-grid__item {
-    width: 288px;
     max-width: 100%;
   }
 
@@ -593,7 +570,7 @@
   }
 
   .place {
-
+    margin-bottom: 47px;
   }
 
   .place__block-title {
@@ -632,22 +609,22 @@
 
   .cover {
     padding: 0;
-    margin-top: 66px;
+    margin: 0;
   }
 
   .cover__container {
-    padding: 33px 16px;
+    padding: 12% 10%;
   }
 
   .cover__title {
-    width: 88%;
-    font-size: 32px;
+    width: 97%;
+    font-size: 48px;
     line-height: 1.09;
   }
 
   .cover__subtitle {
     margin-top: 16px;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.14;
     width: 90%;
   }
@@ -678,5 +655,4 @@
   .footer__copyright {
     line-height: 1;
   }
-
 }
