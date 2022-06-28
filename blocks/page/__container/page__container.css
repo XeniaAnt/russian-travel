@@ -5,3 +5,22 @@
   padding: 28px 0 24px;
   box-sizing: border-box;
 }
+
+@media (max-width: 1279px) {
+  .page__container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .page__container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .page__container {
+    max-width: 100%;
+    padding: 16px 0 24px;
+  }
+}

@@ -1,3 +1,12 @@
 .place__title {
   align-self: flex-end;
 }
+
+@media (max-width: 1023px) {
+  .place__title {
+    font-size: 42px;
+    font-weight: 900;
+    padding-right: 26px;
+  }
+}
+

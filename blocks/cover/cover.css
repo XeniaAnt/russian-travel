@@ -2,3 +2,22 @@
   padding: 0 3.75%;
   margin-top: 92px;
 }
+
+@media (max-width: 1279px) {
+  .cover {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .cover {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .cover {
+    padding: 0;
+    margin: 0;
+  }
+}

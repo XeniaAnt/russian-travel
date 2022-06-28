@@ -7,3 +7,15 @@
   letter-spacing: 1.5px;
   line-height: 1.4;
 }
+
+@media (max-width: 1023px) {
+  .lead__caption {
+    padding-left: 3.125%;
+  }
+}
+
+@media (max-width: 767px) {
+  .lead__caption {
+    padding-left: 5.125%;
+  }
+}

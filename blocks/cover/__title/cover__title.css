@@ -5,3 +5,11 @@
   position: relative;
   z-index: 5;
 }
+
+@media (max-width: 767px) {
+  .cover__title {
+    width: 97%;
+    font-size: 48px;
+    line-height: 1.09;
+  }
+}

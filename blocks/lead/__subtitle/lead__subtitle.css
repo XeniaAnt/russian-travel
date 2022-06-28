@@ -7,3 +7,18 @@
   font-weight: 400;
   width: 50%;
 }
+
+@media (max-width: 1023px) {
+  .lead__subtitle {
+    width: 64%;
+  }
+}
+
+@media (max-width: 767px) {
+  .lead__subtitle {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 1.25;
+    width: 90%;
+  }
+}

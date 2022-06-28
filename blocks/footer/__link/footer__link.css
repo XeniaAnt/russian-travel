@@ -5,3 +5,15 @@
   line-height: 1.13;
   font-weight: 400;
 }
+
+.footer__link:hover {
+  color: rgb(209, 164, 86);
+}
+
+@media (max-width: 767px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 400;
+  }
+}

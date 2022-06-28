@@ -6,3 +6,21 @@
   align-items: center;
   align-content: center;
 }
+
+@media (max-width: 1279px) {
+  .place {
+    margin-bottom: 78px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .place {
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .place {
+    margin-bottom: 47px;
+  }
+}

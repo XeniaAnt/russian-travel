@@ -1,3 +1,10 @@
 .place__block-title {
   width: 49.5%;
 }
+
+@media (max-width: 767px) {
+  .place__block-title {
+    width: 100%;
+    padding: 0 5%;
+  }
+}

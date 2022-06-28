@@ -2,3 +2,8 @@
   color: #fff;
   text-decoration: none;
 }
+
+.cover__link:hover {
+  color: rgb(209, 164, 86);
+}
+
