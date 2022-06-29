@@ -15,12 +15,6 @@
 
 @media (max-width: 1023px) {
   .intro__text {
-    width: 93.75%;
-  }
-}
-
-@media (max-width: 767px) {
-  .intro__text {
     width: 100%;
   }
 }

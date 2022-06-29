@@ -12,15 +12,8 @@
   }
 }
 
-@media (max-width: 1023px) {
-  .page__container {
-    max-width: 100%;
-  }
-}
-
 @media (max-width: 767px) {
   .page__container {
-    max-width: 100%;
     padding: 16px 0 24px;
   }
 }

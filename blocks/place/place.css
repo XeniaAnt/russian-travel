@@ -1,5 +1,5 @@
 .place {
-  margin-bottom: 80px;
+  margin-bottom: 76px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -15,7 +15,7 @@
 
 @media (max-width: 1023px) {
   .place {
-    margin-bottom: 70px;
+    margin-bottom: 77px;
   }
 }
 

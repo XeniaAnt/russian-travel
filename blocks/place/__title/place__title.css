@@ -1,12 +1,27 @@
 .place__title {
+  margin: 0;
+  font-size: 72px;
+  line-height: 1.06;
+  font-weight: 900;
+  width: 49.5%;
   align-self: flex-end;
 }
 
 @media (max-width: 1023px) {
   .place__title {
+    width: 45.5%;
     font-size: 42px;
-    font-weight: 900;
     padding-right: 26px;
   }
 }
+
+@media (max-width: 767px) {
+  .place__title {
+    font-size: 32px;
+    width: 100%;
+    padding: 0 5%;
+  }
+}
+
+
 
